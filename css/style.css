@@ -17,7 +17,7 @@ html, body {
 
 
 /*---------------------------------------
-  Typorgraphy              
+  Typorgraphy
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
   color: #3d3d3f;
-  font-size: 50px;
+  font-size: 28px;
   line-height: normal;
 }
 
@@ -47,7 +47,15 @@ h4 {
 
 p {
     color: #878787;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+ul {
+    color: #878787;
+    font-size: 20px;
     font-weight: 300;
     line-height: 25px;
     letter-spacing: 0.2px;
@@ -61,33 +69,34 @@ strong, span {
 
 
 /*---------------------------------------
-  Buttons               
+  Buttons
 -----------------------------------------*/
 
 .section-btn {
-  background: #d7b065;
+  background: #aacf53;
   border: none;
   border-radius: 50px;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   letter-spacing: 1.6px;
   padding: 14px 32px 18px 32px;
-  margin-top: 32px;
+  margin-top: 10px;
+  margin-right: 10px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 
 .section-btn:focus,
 .section-btn:hover {
-  background: #000000;
+  background: #82ae46;
   color: #ffffff;
 }
 
 
 
 /*---------------------------------------
-    General               
+    General
 -----------------------------------------*/
 
 html{
@@ -145,7 +154,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Pre loader section              
+  Pre loader section
 -----------------------------------------*/
 
 .preloader {
@@ -195,7 +204,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Navigation section              
+  Navigation section
 -----------------------------------------*/
 
 .custom-navbar {
@@ -212,7 +221,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .nav li a {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: normal;
   color: #656565;
   letter-spacing: 1px;
@@ -268,7 +277,7 @@ a:hover, a:active, a:focus {
 @media(min-width:768px) {
     .custom-navbar {
       border-bottom: 0;
-      background: 0 0; 
+      background: 0 0;
     }
     .custom-navbar.top-nav-collapse {
       background: #ffffff;
@@ -281,18 +290,18 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Home section              
+  Home section
 -----------------------------------------*/
 
 #home {
   display: -webkit-box;
   display: -webkit-flex;
-   display: -ms-flexbox;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-   align-items: center;
+  align-items: center;
   height: 100vh;
   position: relative;
   padding-top: 62px;
@@ -305,7 +314,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  About section              
+  About section
 -----------------------------------------*/
 
 #about .section-title {
@@ -319,8 +328,16 @@ a:hover, a:active, a:focus {
   margin: 6px 6px 0px 0;
 }
 
+#about .col-md-3 a {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 6px 6px 0px 0;
+}
+
+
 #about .about-thumb {
-  margin-top: 22px;
+  margin-top: 0px;
 }
 
 #about .about-thumb strong {
@@ -332,7 +349,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Skill section              
+  Skill section
 -----------------------------------------*/
 
 #skill {
@@ -363,7 +380,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Work section              
+  Work section
 -----------------------------------------*/
 
 #work .work-thumb {
@@ -390,7 +407,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Contact section              
+  Contact section
 -----------------------------------------*/
 
 #contact .form-control {
@@ -433,7 +450,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Social icon             
+  Social icon
 -----------------------------------------*/
 
 .social-icon {
@@ -452,26 +469,26 @@ a:hover, a:active, a:focus {
   border-radius: 100%;
   color: #ffffff;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 27px;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
   vertical-align: middle;
   position: relative;
-  margin: 20px 6px 10px 6px;
+  margin: 10px 6px 10px 6px;
 }
 
 .social-icon li a:hover {
-  background: #d7b065;
+  background: #38a1db;
   transform: scale(1.1);
 }
 
 
 /*---------------------------------------
-  Mobile Responsive styles              
+  Mobile Responsive styles
 -----------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -494,7 +511,7 @@ a:hover, a:active, a:focus {
 
 @media (max-width: 980px) {
 
- h1 {font-size: 33px;}
+ h1 {font-size: 28px;}
 
  #work .work-thumb {
   margin-top: 30px;
@@ -506,7 +523,7 @@ a:hover, a:active, a:focus {
 @media (max-width: 768px) {
 
   h1 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: normal;
   }
 
