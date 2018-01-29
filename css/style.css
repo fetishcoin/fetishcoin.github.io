@@ -486,6 +486,51 @@ a:hover, a:active, a:focus {
   transform: scale(1.1);
 }
 
+/*---------------------------------------
+  Values
+-----------------------------------------*/
+
+.service {
+  background: #fff;
+  margin: 0px 20px 30px 20px;
+}
+
+.service .service-element,
+.service .service-info {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.service .service-icon {
+  display: block;
+  margin-bottom: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.service:hover .service-element {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -80%, 0);
+  -moz-transform: translate3d(0, -80%, 0);
+  transform: translate3d(0, -80%, 0);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.service:hover .service-info {
+  -webkit-transform: translate3d(0, -20%, 0);
+  -moz-transform: translate3d(0, -20%, 0);
+  transform: translate3d(0, -20%, 0);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
 
 /*---------------------------------------
   Mobile Responsive styles
