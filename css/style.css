@@ -104,14 +104,14 @@ html{
 }
 
 a {
-  color: #575757;
+  color: #1111cc;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 
 a:hover, a:active, a:focus {
-  color: #000000;
+  color: #82ae46;
   outline: none;
 }
 
