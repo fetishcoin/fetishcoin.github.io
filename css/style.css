@@ -72,7 +72,7 @@ strong, span {
   Buttons
 -----------------------------------------*/
 
-.section-btn {
+.green-btn {
   background: #aacf53;
   border: none;
   border-radius: 50px;
@@ -87,8 +87,8 @@ strong, span {
   transition: all ease-in-out 0.4s;
 }
 
-.section-btn:focus,
-.section-btn:hover {
+.green-btn:focus,
+.green-btn:hover {
   background: #82ae46;
   color: #ffffff;
 }
@@ -149,6 +149,11 @@ a:hover, a:active, a:focus {
 
 #contact {
   text-align: center;
+}
+
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -441,7 +446,7 @@ a:hover, a:active, a:focus {
   border-bottom: 2px solid #999999;
 }
 
-#contact input {
+#contact .text {
   height: 55px;
   border: none;
   border-bottom: 1px solid #f0f0f0;
@@ -459,7 +464,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit:hover {
-  background: #d7b065;
+  background: #82ae46;
   color: #ffffff;
 }
 
