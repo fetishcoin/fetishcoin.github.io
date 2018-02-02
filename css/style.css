@@ -432,6 +432,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact .form-control {
+  overflow: hidden;
   border-radius: 0px;
   border-color: #f0f0f0;
   box-shadow: none;
