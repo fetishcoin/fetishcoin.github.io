@@ -330,14 +330,14 @@ a:hover, a:active, a:focus {
   width: 100px;
   height: 100px;
   display: inline-block;
-  margin: 6px 6px 0px 0;
+  margin: 6px 6px 0px 0px;
 }
 
 #about .col-md-3 a {
   width: 100px;
   height: 100px;
   display: inline-block;
-  margin: 6px 6px 0px 0;
+  margin: 6px 6px 0px 0px;
 }
 
 
@@ -349,6 +349,18 @@ a:hover, a:active, a:focus {
   font-weight: normal;
   display: block;
   padding-top: 4px;
+}
+
+.exchange {
+  margin-bottom: 25px;
+}
+
+.about-note {
+  margin: 10px 20px 10px 0px;
+}
+
+.about-note p, ul, li {
+  font-size: 16px;
 }
 
 
@@ -500,7 +512,7 @@ a:hover, a:active, a:focus {
   text-align: center;
   vertical-align: middle;
   position: relative;
-  margin: 10px 6px 10px 6px;
+  margin: 10px 6px 30px 6px;
 }
 
 .social-icon li a:hover {
