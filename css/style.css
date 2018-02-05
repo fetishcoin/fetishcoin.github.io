@@ -156,6 +156,10 @@ a:hover, a:active, a:focus {
   flex-wrap: wrap;
 }
 
+.v-margin {
+  margin-top: 50px;
+}
+
 
 
 /*---------------------------------------
@@ -436,6 +440,11 @@ a:hover, a:active, a:focus {
 
 #service .service-thumb img {
   border-radius: 5px;
+}
+
+.detail {
+  margin: 6px 25px 25px 25px;
+  font-size: 18px;
 }
 
 
