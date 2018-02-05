@@ -396,6 +396,7 @@ a:hover, a:active, a:focus {
   height: 35px;
 }
 
+/*
 .panel:hover .panel-element {
   opacity: 0;
   -webkit-transform: translate3d(0, -80%, 0);
@@ -414,6 +415,7 @@ a:hover, a:active, a:focus {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
+*/
 
 
 
