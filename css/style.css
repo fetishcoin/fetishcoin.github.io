@@ -548,6 +548,22 @@ a:hover, a:active, a:focus {
 }
 
 
+/*---------------------------------------
+  Thanks section
+-----------------------------------------*/
+
+#thanks {
+  margin-top: 150px;
+}
+
+.followme {
+  font-size: 110%;
+}
+
+.note {
+  font-size: 110%;
+}
+
 
 /*---------------------------------------
   Mobile Responsive styles
