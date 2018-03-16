@@ -11,7 +11,7 @@ function check(){
     flag = 1;
   }
   if(flag){
-    window.alert('メールアドレスもしくはETHアドレスがが正しくありません');
+    window.alert('メールアドレスもしくはETHアドレスがが正しくありません。');
     return false;
   }
   else{
@@ -24,7 +24,7 @@ function check(){
       window.alert('メールアドレス、ETHアドレスを登録しました。');
     }
     else {
-      window.alert('なんらかの問題によりデータ送信できませんでした。');
+      window.alert('何らかの問題によりデータ送信できませんでした。しばらく時間をおいてから再度お試しいただくか、運営まで不具合をお知らせください。');
       return false;
     }
 
