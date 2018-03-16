@@ -24,7 +24,7 @@ function check(){
       window.alert('メールアドレス、ETHアドレスを登録しました。');
     }
     else {
-      window.alert('何らかの問題によりデータ送信できませんでした。しばらく時間をおいてから再度お試しいただくか、運営まで不具合をお知らせください。');
+      window.alert('現在Airdrop準備中です。しばらくお待ち下さい。');
       return false;
     }
 
