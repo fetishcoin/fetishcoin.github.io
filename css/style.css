@@ -669,6 +669,10 @@ a:hover, a:active, a:focus {
 
 @media (max-width: 768px) {
 
+  #home {
+    margin-top: 50px;
+  }
+
   h1 {
     font-size: 28px;
     line-height: normal;
@@ -697,6 +701,10 @@ a:hover, a:active, a:focus {
 
 @media (max-width: 580px) {
 
+  #home {
+    margin-top: 50px;
+  }
+
   #about .about-thumb {
     margin-top: 0px;
   }
@@ -709,6 +717,10 @@ a:hover, a:active, a:focus {
 
 
 @media (max-width: 357px) {
+
+  #home {
+    margin-top: 50px;
+  }
 
   h1 {
     font-size: 28px;
