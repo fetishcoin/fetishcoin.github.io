@@ -24,14 +24,14 @@ function check(){
       window.alert('メールアドレス、ETHアドレスを登録しました。');
     }
     else {
-      window.alert('現在Airdrop準備中です。しばらくお待ち下さい。');
+      window.alert('何らかの問題によりデータ送信できませんでした。しばらく時間をおいてから再度お試しいただくか、運営まで不具合をお知らせください。');
       return false;
     }
 
     function register_data() {
       var result;
       $.ajax({
-        url: 'http://153.126.204.171:5000/post_request',
+        url: 'https://153.126.204.171/post_request',
         type: 'POST',
         data: {
           'email': email,
