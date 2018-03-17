@@ -325,6 +325,10 @@ a:hover, a:active, a:focus {
   height: 120px;
 }
 
+.en_link {
+  margin-top: 20px;
+  margin-left: 20px;
+}
 
 /*---------------------------------------
   About section
@@ -628,6 +632,24 @@ a:hover, a:active, a:focus {
   margin-top: -34px;
   margin-left: 100px;
   vertical-align: top;
+}
+
+.radio {
+  text-align: left;
+  height: 70px;
+  color: #878787;
+}
+
+#contact input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 35px;
+  margin-top: 10px;
+}
+
+#contact label {
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 6px;
 }
 
 
