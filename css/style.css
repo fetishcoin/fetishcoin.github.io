@@ -306,6 +306,12 @@ a:hover, a:active, a:focus {
   Home section
 -----------------------------------------*/
 
+#top_margin {
+  min-height: 70px;
+  height:auto !important;
+  height: 70px;
+}
+
 #home {
   display: -webkit-box;
   display: -webkit-flex;
@@ -318,6 +324,7 @@ a:hover, a:active, a:focus {
   height: 100vh;
   position: relative;
   padding-top: 62px;
+  margin-top: -100px;
 }
 
 #home img {
@@ -333,6 +340,12 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
   About section
 -----------------------------------------*/
+
+#about_margin {
+  min-height: 50px;
+  height:auto !important;
+  height: 50px;
+}
 
 #about .section-title {
   padding-bottom: 16px;
@@ -659,21 +672,21 @@ a:hover, a:active, a:focus {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   #home {
-    margin-top: 30px;
+    margin-top: 10px;
     height: 50vh;
   }
 }
 
 @media (min-width: 667px) and (max-width: 767px) {
   #home {
-    margin-top: 30px;
+    margin-top: 10px;
     height: 140vh;
   }
 }
 
 @media (min-width: 568px) and (max-width: 665px) {
   #home {
-    margin-top: 30px;
+    margin-top: 20px;
     height: 190vh;
   }
 }
@@ -692,7 +705,7 @@ a:hover, a:active, a:focus {
 @media (max-width: 768px) {
 
   #home {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   h1 {
@@ -723,8 +736,8 @@ a:hover, a:active, a:focus {
 
 @media (max-width: 580px) {
 
-  #home {
-    margin-top: 50px;
+  #home, #about {
+    margin-top: 20px;
   }
 
   #about .about-thumb {
@@ -741,11 +754,15 @@ a:hover, a:active, a:focus {
 @media (max-width: 357px) {
 
   #home {
-    margin-top: 50px;
+    margin-top: 80px;
+  }
+
+  #about {
+   margin-top: 30px;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   #about .col-md-4 a {

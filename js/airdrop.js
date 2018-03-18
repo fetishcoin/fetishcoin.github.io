@@ -31,7 +31,7 @@ function check(){
     function register_data() {
       var result;
       $.ajax({
-        url: 'https://153.126.204.171/post_request',
+        url: 'https://fetishcoin-project.com/post_request',
         type: 'POST',
         data: {
           'email': email,
