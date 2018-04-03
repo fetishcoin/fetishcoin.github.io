@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113280285-1"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- jQuery UI -->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-113280285-1');
+</script>
+
+<meta charset="UTF-8">
+
+<title>fetish coin project - tokens</title>
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+<link rel="manifest" href="favicon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- Donate SECTION -->
+<section id="donate">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-2 col-sm-3">
+                <img src="images/theme.png" class="donate_img" alt="fetish coin image">
+            </div>
+            <div id="target_screen" class="col-md-8 col-sm-8">
+                <h1>Thank you very much!</h1>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>注目度</th>
+                            <th>名称・公式サイト</th>
+                            <th>種別</th>
+                            <th>特徴</th>
+                            <th>オススメポイント</th>
+                        </tr>
+                    </thead>
+                    <tbody id="sortable">
+                        <tr>
+                            <td class="rank">-</td>
+                            <td>fetish coin</td>
+                            <td>ETHトークン</td>
+                            <td>コッテリ</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="rank">-</td>
+                            <th>NANJCOIN</th>
+                            <th>ETHトークン</th>
+                            <td>うまい</td>
+                            <td><input type="text" name="fet"></td>
+                        </tr>
+                        <tr>
+                            <td class="rank">-</td>
+                            <th>otaku token</th>
+                            <th>Wavesトークン</th>
+                            <td>イケてる</td>
+                            <td><input type="text" name="fet"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><a href="https://fetishcoin.github.io">fetish coin project.</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-sm-8">
+                <div>
+                    <button onclick="save()">Save</button>
+                    <button onclick="screenshot('#target_screen')">Take a screenshot</button>
+                </div>
+                <hr />
+                <b>Image:</b>
+                <div id="output_screen">
+                  <img id="screen_image" width="500px">
+                </div>
+                <hr />
+                <a id="download" href="#" download="test.png"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SCRIPTS -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/html2canvas.min.js"></script>
+<script>
+$('#sortable').sortable();
+$('#sortable').disableSelection();
+$('#sortable').bind('sortstop', function (e, ui) {
+    var rows = $('#sortable .rank');
+    for (var i = 0, rowTotal = rows.length; i < rowTotal; i += 1) {
+        $($('.rank')[i]).text(i + 1);
+    }
+})
+
+function screenshot(selector) {
+    var element = $(selector)[0];
+    html2canvas(element).then(function(canvas) {
+    var imgData = canvas.toDataURL();
+    $('#screen_image')[0].src = imgData;
+    $('#download')[0].href = imgData;
+    $('#download')[0].innerHTML = "Download";
+    });
+}
+
+</script>
+</body>
+</html>
