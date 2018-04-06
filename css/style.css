@@ -75,6 +75,14 @@ ul {
     letter-spacing: 0.2px;
 }
 
+ol {
+    color: #878787;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
 strong, span {
   color: #878787;
   font-weight: normal;
@@ -589,6 +597,34 @@ a:hover, a:active, a:focus {
   margin-top: -20px;
 }
 
+
+
+/*---------------------------------------
+  Events-detail section
+-----------------------------------------*/
+
+#events-detail li {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.main-image {
+ display: block;
+ margin-left: 10px;
+ margin-right: auto;
+ }
+
+.tweet_text {
+  font-size: 80% !important;
+ }
+
+ .discord {
+  margin-top: -15px;
+ }
 
 
 /*---------------------------------------
