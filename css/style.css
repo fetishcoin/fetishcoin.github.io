@@ -626,6 +626,10 @@ a:hover, a:active, a:focus {
   margin-top: -15px;
  }
 
+ .detail_text {
+  font-size: 70% !important;
+ }
+
 
 /*---------------------------------------
   Social icon
