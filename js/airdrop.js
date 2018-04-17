@@ -11,20 +11,20 @@ function check(){
     flag = 1;
   }
   if(flag){
-    window.alert('メールアドレスもしくはETHアドレスがが正しくありません。');
+    window.alert('Please check your E-mail or ETH address.\nメールアドレスもしくはETHアドレスがが正しくありません。');
     return false;
   }
   else{
     var result = register_data();
     if (result == 0) {
-      window.alert('入力されたメールアドレスまたはETHアドレスはすでに登録されています。');
+      window.alert('Your info already have been registered.\n入力されたメールアドレスまたはETHアドレスはすでに登録されています。');
       return false;
     }
     else if (result == 1) {
-      window.alert('メールアドレス、ETHアドレスを登録しました。');
+      window.alert('Thanks! You have been registered.\nメールアドレス、ETHアドレスを登録しました。');
     }
     else {
-      window.alert('何らかの問題によりデータ送信できませんでした。しばらく時間をおいてから再度お試しいただくか、運営まで不具合をお知らせください。');
+      window.alert('Submit failed. Please wait a moment or please inform us.\n何らかの問題によりデータ送信できませんでした。しばらく時間をおいてから再度お試しいただくか、運営まで不具合をお知らせください。');
       return false;
     }
 
