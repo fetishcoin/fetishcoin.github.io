@@ -359,6 +359,12 @@ a:hover, a:active, a:focus {
   margin-left: 20px;
 }
 
+.main_img {
+  width: 130px;
+  height: 155px;
+}
+
+
 /*---------------------------------------
   About section
 -----------------------------------------*/
@@ -437,6 +443,13 @@ a:hover, a:active, a:focus {
   margin-bottom: 10px;
   width: 35px;
   height: 35px;
+}
+
+.panel-icon2 {
+  display: block;
+  margin-bottom: 10px;
+  width: 45px;
+  height: 30px;
 }
 
 #heart-icon {
