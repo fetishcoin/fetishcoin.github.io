@@ -169,7 +169,7 @@ a:hover, a:active, a:focus {
   border-bottom: 1px solid #f0f0f0;
 }
 
-#contact, #event {
+#contact, #event, #info {
   text-align: center;
 }
 
@@ -184,6 +184,10 @@ a:hover, a:active, a:focus {
 
 .v-margin {
   margin-top: 50px;
+}
+
+.lefttext {
+  text-align: left !important;
 }
 
 
