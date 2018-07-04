@@ -614,6 +614,27 @@ a:hover, a:active, a:focus {
   margin-top: -20px;
 }
 
+#event button#inquire {
+  background: #000000;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 300;
+  height: 55px;
+  padding-bottom: 10px;
+  margin-top: 24px;
+}
+
+#event button#inquire:hover {
+  background: #82ae46;
+  color: #ffffff;
+}
+
+.input_fields {
+  border-color: #f0f0f0;
+  margin-top: -20px;
+}
+
 
 
 /*---------------------------------------
