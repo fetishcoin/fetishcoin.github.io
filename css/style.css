@@ -368,6 +368,10 @@ a:hover, a:active, a:focus {
   height: 155px;
 }
 
+#dropdown-language {
+  margin-top: 11px;
+}
+
 
 /*---------------------------------------
   About section
