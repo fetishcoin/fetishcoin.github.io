@@ -7,16 +7,12 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113280285-1"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script>
-  //location.href="https://fetishcoin.fetiquette.io";
+  location.href="https://fetishcoin.fetiquette.io";
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-113280285-1');
-
-  function onSubmit(token) {
-     document.getElementById("airdrop-form").submit();
-   }
 </script>
 
 <meta charset="UTF-8">
@@ -126,21 +122,6 @@
                 </ul>
                 <div class="wow fadeInUp" data-wow-delay="1s">
                   <a href="FETISHCOIN_whitepaper_ja.pdf" target="_blank" class="btn btn-default green-btn">White paper（日本語）</a>
-                  <div id="dropdown-language" class="btn-group btn-group-sm">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                      Language
-                      <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ route('languages.switch', ['language' => 'en']) }}">English</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ route('languages.switch', ['language' => 'ja']) }}">Japanese</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ route('languages.switch', ['language' => 'zh']) }}">Chinese</a></li>
-                    </ul>
-                  </div>
-                  </div>
-                <!--
-                <a href="FETISHCOIN_whitepaper_en.pdf" target="_blank" class="wow fadeInUp btn btn-default green-btn" data-wow-delay="1s">White paper (English)</a>
-                <!--<p class="wow fadeInUp en_link" data-wow-delay="1.2s"><a href="./index_en.html">English page is here.</a><br>* This is a temporary page during external translation server is down.</p>-->
             </div>
         </div>
     </div>
