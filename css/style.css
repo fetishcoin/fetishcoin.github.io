@@ -355,7 +355,7 @@ a:hover, a:active, a:focus {
 
 #home img {
   width: 110px;
-  height: 120px;
+  height: 110px;
 }
 
 .en_link {
@@ -366,10 +366,6 @@ a:hover, a:active, a:focus {
 .main_img {
   width: 130px;
   height: 155px;
-}
-
-#dropdown-language {
-  margin-top: 11px;
 }
 
 
@@ -423,6 +419,12 @@ a:hover, a:active, a:focus {
 .about-note p, .about-note ul,
 .about-note li {
   font-size: 16px;
+}
+
+.exchange-icon {
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
 }
 
 
@@ -722,7 +724,7 @@ a:hover, a:active, a:focus {
 
 .donate_img {
   width: 160px;
-  height: 185px;
+  height: 160px;
 }
 
 .donate {
